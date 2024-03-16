@@ -92,3 +92,8 @@ define('EVENT_PRIORITY_NORMAL', 100);
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_HIGH instead.
  */
 define('EVENT_PRIORITY_HIGH', 10);
+
+defined('MAX_LOGIN_ATTEMPTS')  OR define('MAX_LOGIN_ATTEMPTS', 3);
+defined('WEBSITE_NAME')  OR define('WEBSITE_NAME', 'ABC Lab');
+defined('ROLE_ID_PATIENT')  OR define('ROLE_ID_PATIENT', 6);
+defined('APPOINTMENT_STATUS')  OR define('APPOINTMENT_STATUS', ["Pending","In progress","Completed","Follow-up required","On hold","Rescheduled","Cancelled"]);
