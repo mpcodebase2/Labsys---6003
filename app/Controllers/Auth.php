@@ -4,10 +4,11 @@ namespace App\Controllers;
 use App\Models\RolePermission_Model;
 use App\Models\Permissions_Model;
 use App\Models\Roles_Model;
-use App\Models\User_Model;
+use App\Models\UserModel;
 use App\Models\Auth_Model;
 
 use App\Libraries\Password;
+use App\Libraries\UserSession;
 
 class Auth extends BaseController
 {
@@ -19,6 +20,8 @@ class Auth extends BaseController
     private $userModel;
     private $password_lib;
 
+    private $userSession;
+
     public function __construct()
     {
         $this->request = \Config\Services::request();
@@ -28,17 +31,19 @@ class Auth extends BaseController
 
         $this->rolePermissionModel = new RolePermission_Model();
         $this->permissionModel = new Permissions_Model();
-        $this->userModel = new User_Model();
+        $this->userModel = new UserModel();
       //  $this->rolesModel = new Roles_Model();
 
         $this->password_lib = new Password();
+
+        $this->userSession = new UserSession();
 
         helper(['form']);
     }
 
     public function index()
     {
-        $data = ['islogin' => false, 'password' => $this->createPPassword()];
+        $data = ['islogin' => false];
         return view('Auth/login', $data);
 //        if (!$this->user->isLoggedIn()) {
 //            $data = [
@@ -52,7 +57,7 @@ class Auth extends BaseController
 
     public function regsiter()
     {
-        return view('Auth/registration');
+        return view('Auth/public_register');
     }
     public function login()
     {
@@ -64,15 +69,77 @@ class Auth extends BaseController
         return view('Auth/registration');
     }
     // Function for login user Post method
-    public function _login()
+    public function loginRequest()
     {
-        return view('Auth/login');
+        $validationRules = [
+            'username' => 'required',
+            'password' => 'required'
+        ];
+        $validationMessages = [
+            'username' => [
+                'required' => 'The username field is required.'
+            ],
+            'password' => [
+                'required' => 'The password field is required.'
+            ]
+        ];
+
+        if (!$this->validate($validationRules, $validationMessages)) {
+            $this->session->setFlashdata("error", $this->validator->listErrors());
+            return redirect()->to(site_url('admin/login'));
+        } else {
+            $loginCredintials = $this->request->getPost();
+            $user = $this->userModel->userExist($loginCredintials['username']);
+
+            if ($user) {
+                $userInfo = $this->userModel->checkLogin($loginCredintials);
+
+                if ($userInfo) {
+                    $this->userModel->resetLoginAttempts($user->id);
+                    unset($userInfo->password);
+                    $this->setSession($userInfo);
+                    return redirect()->to(site_url('admin/dashboard'));
+                } else {
+                    $loginAttempt = $this->userModel->checkLoginAttempt($user->id);
+
+                    if ($loginAttempt) {
+                        if ($loginAttempt->attempt_count >= MAX_LOGIN_ATTEMPTS) {
+                            $this->session->setFlashdata('error', 'Your account has been locked. Please contact admin.');
+                            return redirect()->to(site_url('admin/login'));
+                        } else {
+                            $this->userModel->updateLoginAttempts($user->id, $loginAttempt->attempt_count);
+                        }
+                    } else {
+                        $this->userModel->createLoginAttempts($user->id);
+                    }
+
+                    $this->session->setFlashdata('error', 'Invalid username or password');
+                    return redirect()->to(site_url('admin/login'));
+                }
+            } else {
+                $this->session->setFlashdata('error', 'Invalid username or password');
+                return redirect()->to(site_url('admin/login'));
+            }
+        }
     }
 
-    public function allUsers()
+    private function setSession($userInfo)
     {
-        // Your allUsers method logic goes here
+        $data = [
+            "firstName" => $userInfo->first_name,
+            "lastName" => $userInfo->last_name,
+            "email" => $userInfo->email,
+            "user_id" => $userInfo->id,
+            "role" => $userInfo->role_name,
+            "role_id" => $userInfo->role_id,
+            "islogin" => $this->userSession->isLoggedIn()
+        ];
+
+        foreach ($data as $key => $val) {
+            session()->set($key, $val);
+        }
     }
+
 
     public function allUsersData()
     {
@@ -103,7 +170,7 @@ class Auth extends BaseController
     {
         $session = session();
         $session->destroy();
-        return redirect()->to('/login');
+        return redirect()->to('admin/login');
     }
 
     private function _arrayFormat($status, $message, $data)
@@ -117,7 +184,7 @@ class Auth extends BaseController
 
     public function createPPassword(){
 
-        $password = 'PPP@i99292';//$this->uri->segment(3);
+        $password = 'Test@123';//$this->uri->segment(3);
         $hashed = $this->password_lib->create_hash($password);
         echo $hashed;
 //        $data = ['password' => $hashed];
