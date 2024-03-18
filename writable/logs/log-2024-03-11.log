@@ -1,0 +1,376 @@
+INFO - 2024-03-11 10:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-11 10:15:21 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 9.
+ 1 APPPATH/Models/Common_Model.php(9): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/UserModel.php(73): CodeIgniter\Model\Common_Model->currentColomboTime()
+ 3 APPPATH/Models/UserModel.php(41): App\Models\UserModel->updateLoginTime('1')
+ 4 APPPATH/Controllers/Auth.php(95): App\Models\UserModel->checkLogin([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Auth->loginRequest()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-11 10:15:21 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 9.
+ 1 APPPATH/Models/Common_Model.php(9): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/UserModel.php(109): CodeIgniter\Model\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/Auth.php(98): App\Models\UserModel->resetLoginAttempts('1')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Auth->loginRequest()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 10:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-11 10:16:19 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Models/UserModel.php on line 348.
+ 1 APPPATH/Models/UserModel.php(348): ucfirst(null)
+ 2 APPPATH/Controllers/User.php(67): App\Models\UserModel->getAllAuthUsers([...])
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\User->allUsersData()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 10:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-11 10:39:34 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 9.
+ 1 APPPATH/Models/Common_Model.php(9): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/UserModel.php(73): CodeIgniter\Model\Common_Model->currentColomboTime()
+ 3 APPPATH/Models/UserModel.php(66): App\Models\UserModel->updateLoginTime('12')
+ 4 APPPATH/Controllers/PublicAuthentication.php(108): App\Models\UserModel->checkLoginByEmail([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAuthentication->loginRequest()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-11 10:39:34 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 9.
+ 1 APPPATH/Models/Common_Model.php(9): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/UserModel.php(109): CodeIgniter\Model\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/PublicAuthentication.php(111): App\Models\UserModel->resetLoginAttempts('12')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAuthentication->loginRequest()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 10:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-11 10:41:30 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 9.
+ 1 APPPATH/Models/Common_Model.php(9): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/Patient_Model.php(239): CodeIgniter\Model\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/PublicAuthentication.php(240): App\Models\Patient_Model->createPatientsProfile([...], '12')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAuthentication->createPatientProfileAPI()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 10:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-11 10:41:41 --> [DEPRECATED] ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH/Models/UserModel.php on line 348.
+ 1 APPPATH/Models/UserModel.php(348): ucfirst(null)
+ 2 APPPATH/Controllers/User.php(67): App\Models\UserModel->getAllAuthUsers([...])
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\User->allUsersData()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 10:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-11 10:53:19 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 9.
+ 1 APPPATH/Models/Common_Model.php(9): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/Patient_Model.php(241): CodeIgniter\Model\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/PublicAuthentication.php(240): App\Models\Patient_Model->createPatientsProfile([...], '12')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAuthentication->createPatientProfileAPI()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-11 10:53:19 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 9.
+ 1 APPPATH/Models/Common_Model.php(9): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/Patient_Model.php(250): CodeIgniter\Model\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/PublicAuthentication.php(240): App\Models\Patient_Model->createPatientsProfile([...], '12')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAuthentication->createPatientProfileAPI()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-11 10:53:19 --> mysqli_sql_exception: Unknown column 'telephone' in 'field list' in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `users` ...', 0)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` ...')
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` ...')
+#3 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `users` ...', Array, false)
+#4 /Applications/MAMP/htdocs/icbt/app/Models/Patient_Model.php(269): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /Applications/MAMP/htdocs/icbt/app/Controllers/PublicAuthentication.php(240): App\Models\Patient_Model->createPatientsProfile(Array, '12')
+#6 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(941): App\Controllers\PublicAuthentication->createPatientProfileAPI()
+#7 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+#8 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/icbt/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-11 10:53:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'telephone' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `nic` = :nic:, `gender` = :gender:, `dob` = :dob:, `join_date` = :join_date:, `address` = :address:, `district` = :district:, `telephone` = :telephone:, `active` = :active:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH/Models/Patient_Model.php(269): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH/Controllers/PublicAuthentication.php(240): App\Models\Patient_Model->createPatientsProfile([...], '12')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAuthentication->createPatientProfileAPI()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 10:53:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'telephone' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `nic` = \'9565825221v\', `gender` = \'Female\', `dob` = \'1991-06-13\', `join_date` = \'2024-03-11 16:23:19\', `address` = \'Galle roadGalle road\', `district` = \'5\', `telephone` = \'0777678678\', `active` = 1
+WHERE `id` = \'12\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `nic` = \'9565825221v\', `gender` = \'Female\', `dob` = \'1991-06-13\', `join_date` = \'2024-03-11 16:23:19\', `address` = \'Galle roadGalle road\', `district` = \'5\', `telephone` = \'0777678678\', `active` = 1
+WHERE `id` = \'12\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `nic` = :nic:, `gender` = :gender:, `dob` = :dob:, `join_date` = :join_date:, `address` = :address:, `district` = :district:, `telephone` = :telephone:, `active` = :active:
+WHERE `id` = :id:', [...], false)
+ 4 APPPATH/Models/Patient_Model.php(269): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH/Controllers/PublicAuthentication.php(240): App\Models\Patient_Model->createPatientsProfile([...], '12')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAuthentication->createPatientProfileAPI()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 10:53:19 --> [Caused by] mysqli_sql_exception: Unknown column 'telephone' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `users` SET `nic` = \'9565825221v\', `gender` = \'Female\', `dob` = \'1991-06-13\', `join_date` = \'2024-03-11 16:23:19\', `address` = \'Galle roadGalle road\', `district` = \'5\', `telephone` = \'0777678678\', `active` = 1
+WHERE `id` = \'12\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `users` SET `nic` = \'9565825221v\', `gender` = \'Female\', `dob` = \'1991-06-13\', `join_date` = \'2024-03-11 16:23:19\', `address` = \'Galle roadGalle road\', `district` = \'5\', `telephone` = \'0777678678\', `active` = 1
+WHERE `id` = \'12\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `users` SET `nic` = \'9565825221v\', `gender` = \'Female\', `dob` = \'1991-06-13\', `join_date` = \'2024-03-11 16:23:19\', `address` = \'Galle roadGalle road\', `district` = \'5\', `telephone` = \'0777678678\', `active` = 1
+WHERE `id` = \'12\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2474): CodeIgniter\Database\BaseConnection->query('UPDATE `users` SET `nic` = :nic:, `gender` = :gender:, `dob` = :dob:, `join_date` = :join_date:, `address` = :address:, `district` = :district:, `telephone` = :telephone:, `active` = :active:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH/Models/Patient_Model.php(269): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH/Controllers/PublicAuthentication.php(240): App\Models\Patient_Model->createPatientsProfile([...], '12')
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAuthentication->createPatientProfileAPI()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 10:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-11 10:53:52 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 9.
+ 1 APPPATH/Models/Common_Model.php(9): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/Patient_Model.php(241): CodeIgniter\Model\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/PublicAuthentication.php(240): App\Models\Patient_Model->createPatientsProfile([...], '12')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAuthentication->createPatientProfileAPI()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-11 10:53:52 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 9.
+ 1 APPPATH/Models/Common_Model.php(9): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/Patient_Model.php(250): CodeIgniter\Model\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/PublicAuthentication.php(240): App\Models\Patient_Model->createPatientsProfile([...], '12')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAuthentication->createPatientProfileAPI()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 10:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 10:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 12:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 12:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 12:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 12:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 12:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 12:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 12:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 12:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 12:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 12:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 12:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 13:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 13:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 13:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 13:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-11 14:28:50 --> Error: Class "CodeIgniter\Model\Common_Model" not found
+in APPPATH/Controllers/Payment.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Payment->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 14:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-11 14:40:04 --> Error: Class "CodeIgniter\Model\Common_Model" not found
+in APPPATH/Models/Appointment_Model.php on line 19.
+ 1 APPPATH/Controllers/Payment.php(22): App\Models\Appointment_Model->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Payment->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 14:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-11 14:43:41 --> ErrorException: Undefined variable $eid
+in APPPATH/Views/Payment/test_payment.php on line 78.
+ 1 APPPATH/Views/Payment/test_payment.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eid', '/Applications/MAMP/htdocs/icbt/app/Views/Payment/test_payment.php', 78)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/MAMP/htdocs/icbt/app/Views/Payment/test_payment.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('Payment/test_payment', [], true)
+ 5 APPPATH/Controllers/Payment.php(39): view('Payment/test_payment', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Payment->index('Ng==')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 14:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 14:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:05:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-11 15:24:30 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 11.
+ 1 APPPATH/Models/Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/UserModel.php(72): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH/Models/UserModel.php(65): App\Models\UserModel->updateLoginTime('12')
+ 4 APPPATH/Controllers/PublicAuthentication.php(108): App\Models\UserModel->checkLoginByEmail([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAuthentication->loginRequest()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-11 15:24:30 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 11.
+ 1 APPPATH/Models/Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/UserModel.php(108): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/PublicAuthentication.php(111): App\Models\UserModel->resetLoginAttempts('12')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAuthentication->loginRequest()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 15:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-11 15:27:19 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 11.
+ 1 APPPATH/Models/Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/Appointment_Model.php(192): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/PublicAppointment.php(120): App\Models\Appointment_Model->createAppointmentByPatient([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAppointment->createAppointmentAPI()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-11 15:27:19 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 11.
+ 1 APPPATH/Models/Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/Appointment_Model.php(388): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH/Models/Appointment_Model.php(207): App\Models\Appointment_Model->addAppointmentHistory(7, 'Created')
+ 4 APPPATH/Controllers/PublicAppointment.php(120): App\Models\Appointment_Model->createAppointmentByPatient([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAppointment->createAppointmentAPI()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 15:27:19 --> ErrorException: Undefined property: App\Controllers\PublicAppointment::$common_model
+in APPPATH/Controllers/PublicAppointment.php on line 122.
+ 1 APPPATH/Controllers/PublicAppointment.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\PublicAppointment::$common_model', '/Applications/MAMP/htdocs/icbt/app/Controllers/PublicAppointment.php', 122)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAppointment->createAppointmentAPI()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 15:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-11 15:29:16 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 11.
+ 1 APPPATH/Models/Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/Appointment_Model.php(192): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/PublicAppointment.php(123): App\Models\Appointment_Model->createAppointmentByPatient([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAppointment->createAppointmentAPI()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-11 15:29:16 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 11.
+ 1 APPPATH/Models/Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/Appointment_Model.php(388): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH/Models/Appointment_Model.php(207): App\Models\Appointment_Model->addAppointmentHistory(8, 'Created')
+ 4 APPPATH/Controllers/PublicAppointment.php(123): App\Models\Appointment_Model->createAppointmentByPatient([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAppointment->createAppointmentAPI()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-11 15:29:16 --> Error: Call to undefined method App\Controllers\PublicAppointment::_arrayFormat()
+in APPPATH/Controllers/PublicAppointment.php on line 126.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAppointment->createAppointmentAPI()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 15:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-11 15:29:49 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 11.
+ 1 APPPATH/Models/Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/Appointment_Model.php(192): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/PublicAppointment.php(123): App\Models\Appointment_Model->createAppointmentByPatient([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAppointment->createAppointmentAPI()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-11 15:29:49 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 11.
+ 1 APPPATH/Models/Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/Appointment_Model.php(388): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH/Models/Appointment_Model.php(207): App\Models\Appointment_Model->addAppointmentHistory(9, 'Created')
+ 4 APPPATH/Controllers/PublicAppointment.php(123): App\Models\Appointment_Model->createAppointmentByPatient([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAppointment->createAppointmentAPI()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 15:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-11 15:31:33 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 11.
+ 1 APPPATH/Models/Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/Appointment_Model.php(192): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/PublicAppointment.php(123): App\Models\Appointment_Model->createAppointmentByPatient([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAppointment->createAppointmentAPI()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-11 15:31:33 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 11.
+ 1 APPPATH/Models/Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/Appointment_Model.php(388): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH/Models/Appointment_Model.php(207): App\Models\Appointment_Model->addAppointmentHistory(10, 'Created')
+ 4 APPPATH/Controllers/PublicAppointment.php(123): App\Models\Appointment_Model->createAppointmentByPatient([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAppointment->createAppointmentAPI()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-11 15:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-11 15:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

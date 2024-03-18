@@ -1,0 +1,10 @@
+CRITICAL - 2024-02-29 04:23:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Admin/layout/master.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/layout/master.php')
+ 2 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('Admin/layout/master', [], true)
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('Admin/dashboard', [], true)
+ 4 APPPATH/Controllers/Home.php(9): view('Admin/dashboard')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,56 @@
+INFO - 2024-03-02 15:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-02 15:11:20 --> ErrorException: Declaration of App\Models\Roles_Model::update($formData) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+in APPPATH/Models/Roles_Model.php on line 124.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-02 15:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-02 15:11:54 --> ErrorException: Undefined property: App\Controllers\Auth::$load
+in APPPATH/Controllers/Auth.php on line 114.
+ 1 APPPATH/Controllers/Auth.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$load', '/Applications/MAMP/htdocs/icbt/app/Controllers/Auth.php', 114)
+ 2 APPPATH/Controllers/Auth.php(36): App\Controllers\Auth->createPPassword()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Auth->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-02 15:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 15:17:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 15:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-02 15:19:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Auth/password.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/password.php')
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('Auth/password', [], true)
+ 3 APPPATH/Controllers/Auth.php(124): view('Auth/password', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Auth->createPPassword()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-02 15:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 15:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 15:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-02 15:53:12 --> ErrorException: Declaration of App\Models\Roles_Model::update($formData) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+in APPPATH/Models/Roles_Model.php on line 124.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-02 15:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-02 15:54:00 --> ErrorException: Declaration of App\Models\Roles_Model::update($formData): bool must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+in APPPATH/Models/Roles_Model.php on line 124.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-02 15:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-02 15:54:33 --> ErrorException: Declaration of App\Models\Roles_Model::delete($id) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH/Models/Roles_Model.php on line 144.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-02 15:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-02 15:57:22 --> ErrorException: Declaration of App\Models\Roles_Model::delete($id) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH/Models/Roles_Model.php on line 144.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-02 15:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-02 15:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-02 15:58:20 --> ErrorException: Undefined variable $userRoles
+in APPPATH/Views/Admin/users.php on line 59.
+ 1 APPPATH/Views/Admin/users.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userRoles', '/Applications/MAMP/htdocs/icbt/app/Views/Admin/users.php', 59)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/MAMP/htdocs/icbt/app/Views/Admin/users.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH/Controllers/User.php(34): view('Admin/users')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

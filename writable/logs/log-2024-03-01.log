@@ -1,0 +1,136 @@
+INFO - 2024-03-01 04:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 04:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 04:35:26 --> ErrorException: Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+in APPPATH/Controllers/Auth.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-01 04:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 04:36:03 --> ErrorException: Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes)
+in APPPATH/Controllers/Auth.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-03-01 04:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 04:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 04:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 04:37:04 --> Error: Class "App\Controllers\Auth_Model" not found
+in APPPATH/Controllers/Auth.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 04:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 04:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 04:48:46 --> ErrorException: Attempt to read property "status" on null
+in APPPATH/Models/RolePermission_Model.php on line 17.
+ 1 APPPATH/Models/RolePermission_Model.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status" on null', '/Applications/MAMP/htdocs/icbt/app/Models/RolePermission_Model.php', 17)
+ 2 APPPATH/Controllers/Auth.php(21): App\Models\RolePermission_Model->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 04:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 04:50:53 --> Error: Class "CodeIgniter\Model\Common_Model" not found
+in APPPATH/Models/RolePermission_Model.php on line 19.
+ 1 APPPATH/Controllers/Auth.php(21): App\Models\RolePermission_Model->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 04:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 04:50:55 --> Error: Class "CodeIgniter\Model\Common_Model" not found
+in APPPATH/Models/RolePermission_Model.php on line 19.
+ 1 APPPATH/Controllers/Auth.php(21): App\Models\RolePermission_Model->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 04:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 04:54:34 --> Error: Class "CodeIgniter\Model\Common_Model" not found
+in APPPATH/Models/RolePermission_Model.php on line 20.
+ 1 APPPATH/Controllers/Auth.php(21): App\Models\RolePermission_Model->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 04:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 04:57:10 --> Error: Class "App\Models\Common_Model" not found
+in APPPATH/Models/RolePermission_Model.php on line 20.
+ 1 APPPATH/Controllers/Auth.php(21): App\Models\RolePermission_Model->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 04:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 05:05:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Admin/layout/main_layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/layout/main_layout.php')
+ 2 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('Admin/layout/main_layout', [], true)
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('Admin/dashboard', [], true)
+ 4 APPPATH/Controllers/Auth.php(36): view('Admin/dashboard')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Auth->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 05:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 05:06:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "../layout/main_layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout/main_layout.php')
+ 2 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('../layout/main_layout', [], true)
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('Admin/dashboard', [], true)
+ 4 APPPATH/Controllers/Auth.php(36): view('Admin/dashboard')
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Auth->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 05:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 05:06:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "../layout/header.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout/header.php')
+ 2 SYSTEMPATH/View/View.php(469): CodeIgniter\View\View->render('../layout/header', null, true)
+ 3 APPPATH/Views/layout/main_layout.php(43): CodeIgniter\View\View->include('../layout/header')
+ 4 SYSTEMPATH/View/View.php(228): include('/Applications/MAMP/htdocs/icbt/app/Views/layout/main_layout.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('layout/main_layout', [], true)
+ 7 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('Admin/dashboard', [], true)
+ 8 APPPATH/Controllers/Auth.php(36): view('Admin/dashboard')
+ 9 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Auth->index()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 05:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-01 05:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-01 05:52:26 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/Auth/registration.php on line 15.
+ 1 APPPATH/Views/Auth/registration.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/Applications/MAMP/htdocs/icbt/app/Views/Auth/registration.php', 15)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/MAMP/htdocs/icbt/app/Views/Auth/registration.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('Auth/registration', [], true)
+ 5 APPPATH/Controllers/Auth.php(49): view('Auth/registration')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Auth->regsiter()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-01 05:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

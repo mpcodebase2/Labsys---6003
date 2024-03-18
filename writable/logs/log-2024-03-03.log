@@ -1,0 +1,80 @@
+INFO - 2024-03-03 02:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-03 02:33:16 --> ErrorException: Undefined property: App\Controllers\User::$role_permission
+in APPPATH/Controllers/User.php on line 34.
+ 1 APPPATH/Controllers/User.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\User::$role_permission', '/Applications/MAMP/htdocs/icbt/app/Controllers/User.php', 34)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\User->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-03 02:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-03 02:33:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 /Applications/MAMP/htdocs/icbt/app/Models/RolePermission_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/icbt/app/Controllers/User.php(34): App\Models\RolePermission_Model->getAllRolesByCurrentUserId()
+#6 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(941): App\Controllers\User->index()
+#7 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/icbt/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#3 /Applications/MAMP/htdocs/icbt/app/Models/RolePermission_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/MAMP/htdocs/icbt/app/Controllers/User.php(34): App\Models\RolePermission_Model->getAllRolesByCurrentUserId()
+#5 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(941): App\Controllers\User->index()
+#6 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Applications/MAMP/htdocs/icbt/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-03 02:33:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `name`
+FROM `roles`
+WHERE `id` >= :id:', [...], false)
+ 3 APPPATH/Models/RolePermission_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/User.php(34): App\Models\RolePermission_Model->getAllRolesByCurrentUserId()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-03 02:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-03 02:34:41 --> ErrorException: Undefined property: CodeIgniter\View\View::$security
+in APPPATH/Views/Admin/users.php on line 69.
+ 1 APPPATH/Views/Admin/users.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$security', '/Applications/MAMP/htdocs/icbt/app/Views/Admin/users.php', 69)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/MAMP/htdocs/icbt/app/Views/Admin/users.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('Admin/users', [], true)
+ 5 APPPATH/Controllers/User.php(37): view('Admin/users', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\User->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-03 02:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-03 02:49:59 --> Error: Call to undefined method Config\View::item()
+in APPPATH/Views/Admin/users.php on line 285.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('Admin/users', [], true)
+ 4 APPPATH/Controllers/User.php(37): view('Admin/users', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\User->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-03 02:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-03 02:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-03 04:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-03 04:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-03 04:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-03 05:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-03 05:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-03 05:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-03 05:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

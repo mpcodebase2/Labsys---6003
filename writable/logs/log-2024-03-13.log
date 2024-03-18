@@ -1,0 +1,939 @@
+INFO - 2024-03-13 04:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 04:02:30 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 11.
+ 1 APPPATH/Models/Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/UserModel.php(72): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH/Models/UserModel.php(65): App\Models\UserModel->updateLoginTime('12')
+ 4 APPPATH/Controllers/PublicAuthentication.php(108): App\Models\UserModel->checkLoginByEmail([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAuthentication->loginRequest()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-13 04:02:30 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 11.
+ 1 APPPATH/Models/Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/UserModel.php(108): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/PublicAuthentication.php(111): App\Models\UserModel->resetLoginAttempts('12')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAuthentication->loginRequest()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 04:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 04:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 05:00:00 --> ErrorException: Undefined variable $postData
+in APPPATH/Controllers/PublicAppointment.php on line 156.
+ 1 APPPATH/Controllers/PublicAppointment.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $postData', '/Applications/MAMP/htdocs/icbt/app/Controllers/PublicAppointment.php', 156)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAppointment->getChartData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 05:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 05:00:24 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 884.
+ 1 SYSTEMPATH/Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH/Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH/Models/Appointment_Model.php(440): CodeIgniter\Model->__call('whereIn', [...])
+ 4 APPPATH/Controllers/PublicAppointment.php(156): App\Models\Appointment_Model->getChartData()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAppointment->getChartData()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 05:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 05:02:10 --> Error: Cannot use object of type mysqli as array
+in APPPATH/Models/Appointment_Model.php on line 452.
+ 1 APPPATH/Controllers/PublicAppointment.php(156): App\Models\Appointment_Model->getChartData()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAppointment->getChartData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 05:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-13 05:02:50 --> TypeError: Cannot access offset of type string on string
+in APPPATH/Models/Appointment_Model.php on line 452.
+ 1 APPPATH/Controllers/PublicAppointment.php(156): App\Models\Appointment_Model->getChartData()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\PublicAppointment->getChartData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 05:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 05:51:00 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 11.
+ 1 APPPATH/Models/Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/UserModel.php(72): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH/Models/UserModel.php(40): App\Models\UserModel->updateLoginTime('1')
+ 4 APPPATH/Controllers/Auth.php(95): App\Models\UserModel->checkLogin([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Auth->loginRequest()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-13 05:51:00 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 11.
+ 1 APPPATH/Models/Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/UserModel.php(108): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/Auth.php(98): App\Models\UserModel->resetLoginAttempts('1')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Auth->loginRequest()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 05:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 05:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 06:19:28 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 17.
+ 1 APPPATH/Models/Common_Model.php(17): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(107): App\Models\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-13 06:19:28 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 17.
+ 1 APPPATH/Models/Common_Model.php(17): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(107): App\Models\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-13 06:19:28 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 17.
+ 1 APPPATH/Models/Common_Model.php(17): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(107): App\Models\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-13 06:19:28 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 17.
+ 1 APPPATH/Models/Common_Model.php(17): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(107): App\Models\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-13 06:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-13 06:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-13 07:36:18 --> [DEPRECATED] Creation of dynamic property App\Models\Appointment_Model::$session is deprecated in APPPATH/Models/Appointment_Model.php on line 18.
+ 1 APPPATH/Controllers/Appointment.php(35): App\Models\Appointment_Model->__construct()
+ 2 ROOTPATH/tests/LabSystemTest.php(21): App\Controllers\Appointment->__construct()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testAppointmentInitialLoad()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+WARNING - 2024-03-13 07:36:18 --> [DEPRECATED] Creation of dynamic property App\Models\Appointment_Model::$password_lib is deprecated in APPPATH/Models/Appointment_Model.php on line 20.
+ 1 APPPATH/Controllers/Appointment.php(35): App\Models\Appointment_Model->__construct()
+ 2 ROOTPATH/tests/LabSystemTest.php(21): App\Controllers\Appointment->__construct()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testAppointmentInitialLoad()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+WARNING - 2024-03-13 07:36:18 --> [DEPRECATED] Creation of dynamic property App\Models\FileUpload_Model::$request is deprecated in APPPATH/Models/FileUpload_Model.php on line 19.
+ 1 APPPATH/Models/Appointment_Model.php(22): App\Models\FileUpload_Model->__construct()
+ 2 APPPATH/Controllers/Appointment.php(35): App\Models\Appointment_Model->__construct()
+ 3 ROOTPATH/tests/LabSystemTest.php(21): App\Controllers\Appointment->__construct()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testAppointmentInitialLoad()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+11 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+13 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+14 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+15 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+WARNING - 2024-03-13 07:36:18 --> [DEPRECATED] Creation of dynamic property App\Models\FileUpload_Model::$session is deprecated in APPPATH/Models/FileUpload_Model.php on line 20.
+ 1 APPPATH/Models/Appointment_Model.php(22): App\Models\FileUpload_Model->__construct()
+ 2 APPPATH/Controllers/Appointment.php(35): App\Models\Appointment_Model->__construct()
+ 3 ROOTPATH/tests/LabSystemTest.php(21): App\Controllers\Appointment->__construct()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testAppointmentInitialLoad()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+11 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+13 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+14 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+15 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+WARNING - 2024-03-13 07:36:18 --> [DEPRECATED] Creation of dynamic property App\Models\Patient_Model::$password_lib is deprecated in APPPATH/Models/Patient_Model.php on line 14.
+ 1 APPPATH/Controllers/Appointment.php(40): App\Models\Patient_Model->__construct()
+ 2 ROOTPATH/tests/LabSystemTest.php(21): App\Controllers\Appointment->__construct()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testAppointmentInitialLoad()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+WARNING - 2024-03-13 07:38:57 --> [DEPRECATED] Creation of dynamic property App\Models\Patient_Model::$password_lib is deprecated in APPPATH/Models/Patient_Model.php on line 14.
+ 1 ROOTPATH/tests/LabSystemTest.php(25): App\Models\Patient_Model->__construct()
+ 2 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testAppointmentInitialLoad()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+13 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+ERROR - 2024-03-13 07:38:57 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, no such table: db_patients in /Applications/MAMP/htdocs/icbt/system/Database/SQLite3/Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', '/Applications/M...', 146)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/SQLite3/Connection.php(146): SQLite3->query('SELECT `db_pati...')
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `db_pati...')
+#3 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `db_pati...')
+#4 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `db_pati...', Array, false)
+#5 /Applications/MAMP/htdocs/icbt/app/Models/Patient_Model.php(308): CodeIgniter\Database\BaseBuilder->get()
+#6 /Applications/MAMP/htdocs/icbt/tests/LabSystemTest.php(26): App\Models\Patient_Model->getDataAll()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testAppointmentInitialLoad()
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#12 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#14 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#15 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#16 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#17 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#18 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#19 {main}
+WARNING - 2024-03-13 07:40:05 --> [DEPRECATED] Creation of dynamic property App\Models\Patient_Model::$password_lib is deprecated in APPPATH/Models/Patient_Model.php on line 14.
+ 1 ROOTPATH/tests/LabSystemTest.php(25): App\Models\Patient_Model->__construct()
+ 2 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testPatientData()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+13 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+ERROR - 2024-03-13 07:40:05 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, no such table: db_patients in /Applications/MAMP/htdocs/icbt/system/Database/SQLite3/Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', '/Applications/M...', 146)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/SQLite3/Connection.php(146): SQLite3->query('SELECT `db_pati...')
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `db_pati...')
+#3 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `db_pati...')
+#4 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `db_pati...', Array, false)
+#5 /Applications/MAMP/htdocs/icbt/app/Models/Patient_Model.php(308): CodeIgniter\Database\BaseBuilder->get()
+#6 /Applications/MAMP/htdocs/icbt/tests/LabSystemTest.php(26): App\Models\Patient_Model->getDataAll()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testPatientData()
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#12 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#14 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#15 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#16 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#17 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#18 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#19 {main}
+WARNING - 2024-03-13 07:41:08 --> [DEPRECATED] Creation of dynamic property App\Models\Patient_Model::$password_lib is deprecated in APPPATH/Models/Patient_Model.php on line 15.
+ 1 ROOTPATH/tests/LabSystemTest.php(25): App\Models\Patient_Model->__construct()
+ 2 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testPatientData()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+13 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+ERROR - 2024-03-13 07:41:08 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, no such table: db_patients in /Applications/MAMP/htdocs/icbt/system/Database/SQLite3/Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', '/Applications/M...', 146)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/SQLite3/Connection.php(146): SQLite3->query('SELECT `db_pati...')
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `db_pati...')
+#3 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `db_pati...')
+#4 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `db_pati...', Array, false)
+#5 /Applications/MAMP/htdocs/icbt/app/Models/Patient_Model.php(309): CodeIgniter\Database\BaseBuilder->get()
+#6 /Applications/MAMP/htdocs/icbt/tests/LabSystemTest.php(26): App\Models\Patient_Model->getDataAll()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testPatientData()
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#12 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#14 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#15 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#16 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#17 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#18 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#19 {main}
+WARNING - 2024-03-13 07:47:28 --> [DEPRECATED] Creation of dynamic property App\Models\Patient_Model::$password_lib is deprecated in APPPATH/Models/Patient_Model.php on line 15.
+ 1 ROOTPATH/tests/LabSystemTest.php(25): App\Models\Patient_Model->__construct()
+ 2 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testPatientData()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+13 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+WARNING - 2024-03-13 07:47:55 --> [DEPRECATED] Creation of dynamic property App\Models\Patient_Model::$password_lib is deprecated in APPPATH/Models/Patient_Model.php on line 15.
+ 1 ROOTPATH/tests/LabSystemTest.php(25): App\Models\Patient_Model->__construct()
+ 2 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testPatientData()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+13 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+WARNING - 2024-03-13 07:49:32 --> [DEPRECATED] Creation of dynamic property App\Models\Patient_Model::$password_lib is deprecated in APPPATH/Models/Patient_Model.php on line 15.
+ 1 ROOTPATH/tests/LabSystemTest.php(25): App\Models\Patient_Model->__construct()
+ 2 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testPatientData()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+13 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+ERROR - 2024-03-13 07:49:32 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, no such table: db_patients in /Applications/MAMP/htdocs/icbt/system/Database/SQLite3/Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', '/Applications/M...', 146)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/SQLite3/Connection.php(146): SQLite3->query('SELECT `db_pati...')
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT `db_pati...')
+#3 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `db_pati...')
+#4 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `db_pati...', Array, false)
+#5 /Applications/MAMP/htdocs/icbt/app/Models/Patient_Model.php(321): CodeIgniter\Database\BaseBuilder->get()
+#6 /Applications/MAMP/htdocs/icbt/tests/LabSystemTest.php(26): App\Models\Patient_Model->getDataAllTest()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testPatientData()
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#12 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#14 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#15 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#16 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#17 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#18 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#19 {main}
+WARNING - 2024-03-13 09:11:27 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 23.
+ 1 APPPATH/Models/Common_Model.php(23): DateTime->__construct(null, Object(DateTimeZone))
+ 2 ROOTPATH/tests/LabSystemTest.php(26): App\Models\Common_Model->getCurrentTimeStamp()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testPatientData()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+WARNING - 2024-03-13 09:12:47 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 23.
+ 1 APPPATH/Models/Common_Model.php(23): DateTime->__construct(null, Object(DateTimeZone))
+ 2 ROOTPATH/tests/LabSystemTest.php(26): App\Models\Common_Model->getCurrentTimeStamp()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testPatientData()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+WARNING - 2024-03-13 09:14:26 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 23.
+ 1 APPPATH/Models/Common_Model.php(23): DateTime->__construct(null, Object(DateTimeZone))
+ 2 ROOTPATH/tests/LabSystemTest.php(26): App\Models\Common_Model->getCurrentTimeStamp()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testGetCurrentTimeStamp()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+ERROR - 2024-03-13 09:14:26 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, no such table: db_test_list in /Applications/MAMP/htdocs/icbt/system/Database/SQLite3/Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', '/Applications/M...', 146)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/SQLite3/Connection.php(146): SQLite3->query('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#4 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /Applications/MAMP/htdocs/icbt/app/Models/LabTest_Model.php(112): CodeIgniter\Database\BaseBuilder->get()
+#6 /Applications/MAMP/htdocs/icbt/tests/LabSystemTest.php(32): App\Models\LabTest_Model->getDataAll()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testLabTest_Model()
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#12 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#14 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#15 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#16 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#17 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#18 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#19 {main}
+WARNING - 2024-03-13 09:22:43 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 23.
+ 1 APPPATH/Models/Common_Model.php(23): DateTime->__construct(null, Object(DateTimeZone))
+ 2 ROOTPATH/tests/LabSystemTest.php(26): App\Models\Common_Model->getCurrentTimeStamp()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testGetCurrentTimeStamp()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+ERROR - 2024-03-13 09:22:43 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'niro'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'niro', Object(SensitiveParameterValue), 'icbt_lab_system', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/icbt/app/Models/LabTest_Model.php(112): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/icbt/tests/LabSystemTest.php(32): App\Models\LabTest_Model->getDataAll()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testLabTest_Model()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#14 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#15 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#16 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#17 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#18 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/MAMP/htdocs/icbt/app/Models/LabTest_Model.php(112): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/MAMP/htdocs/icbt/tests/LabSystemTest.php(32): App\Models\LabTest_Model->getDataAll()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testLabTest_Model()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#14 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#15 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#16 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#17 {main}
+ERROR - 2024-03-13 09:22:43 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'niro'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'niro', Object(SensitiveParameterValue), 'icbt_lab_system', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(54): ExampleDatabaseTest->loadDependencies()
+#4 /Applications/MAMP/htdocs/icbt/system/Test/CIUnitTestCase.php(249): ExampleDatabaseTest->setUpDatabase()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1211): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(ExampleDatabaseTest))
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#14 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#15 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(54): ExampleDatabaseTest->loadDependencies()
+#3 /Applications/MAMP/htdocs/icbt/system/Test/CIUnitTestCase.php(249): ExampleDatabaseTest->setUpDatabase()
+#4 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1211): CodeIgniter\Test\CIUnitTestCase->setUp()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(ExampleDatabaseTest))
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#15 {main}
+ERROR - 2024-03-13 09:22:43 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'niro'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'niro', Object(SensitiveParameterValue), 'icbt_lab_system', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(54): ExampleDatabaseTest->loadDependencies()
+#4 /Applications/MAMP/htdocs/icbt/system/Test/CIUnitTestCase.php(249): ExampleDatabaseTest->setUpDatabase()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1211): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(ExampleDatabaseTest))
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#14 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#15 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(54): ExampleDatabaseTest->loadDependencies()
+#3 /Applications/MAMP/htdocs/icbt/system/Test/CIUnitTestCase.php(249): ExampleDatabaseTest->setUpDatabase()
+#4 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1211): CodeIgniter\Test\CIUnitTestCase->setUp()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(ExampleDatabaseTest))
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#15 {main}
+WARNING - 2024-03-13 09:23:22 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 23.
+ 1 APPPATH/Models/Common_Model.php(23): DateTime->__construct(null, Object(DateTimeZone))
+ 2 ROOTPATH/tests/LabSystemTest.php(26): App\Models\Common_Model->getCurrentTimeStamp()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testGetCurrentTimeStamp()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+ERROR - 2024-03-13 09:23:22 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'niro'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('127.0.0.1', 'niro', Object(SensitiveParameterValue), 'icbt_lab_system', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/icbt/app/Models/LabTest_Model.php(112): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/icbt/tests/LabSystemTest.php(32): App\Models\LabTest_Model->getDataAll()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testLabTest_Model()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#14 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#15 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#16 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#17 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#18 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/MAMP/htdocs/icbt/app/Models/LabTest_Model.php(112): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/MAMP/htdocs/icbt/tests/LabSystemTest.php(32): App\Models\LabTest_Model->getDataAll()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testLabTest_Model()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#14 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#15 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#16 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#17 {main}
+ERROR - 2024-03-13 09:23:22 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'niro'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('127.0.0.1', 'niro', Object(SensitiveParameterValue), 'icbt_lab_system', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(54): ExampleDatabaseTest->loadDependencies()
+#4 /Applications/MAMP/htdocs/icbt/system/Test/CIUnitTestCase.php(249): ExampleDatabaseTest->setUpDatabase()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1211): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(ExampleDatabaseTest))
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#14 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#15 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(54): ExampleDatabaseTest->loadDependencies()
+#3 /Applications/MAMP/htdocs/icbt/system/Test/CIUnitTestCase.php(249): ExampleDatabaseTest->setUpDatabase()
+#4 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1211): CodeIgniter\Test\CIUnitTestCase->setUp()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(ExampleDatabaseTest))
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#15 {main}
+ERROR - 2024-03-13 09:23:22 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'niro'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('127.0.0.1', 'niro', Object(SensitiveParameterValue), 'icbt_lab_system', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(54): ExampleDatabaseTest->loadDependencies()
+#4 /Applications/MAMP/htdocs/icbt/system/Test/CIUnitTestCase.php(249): ExampleDatabaseTest->setUpDatabase()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1211): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(ExampleDatabaseTest))
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#14 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#15 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(54): ExampleDatabaseTest->loadDependencies()
+#3 /Applications/MAMP/htdocs/icbt/system/Test/CIUnitTestCase.php(249): ExampleDatabaseTest->setUpDatabase()
+#4 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1211): CodeIgniter\Test\CIUnitTestCase->setUp()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(ExampleDatabaseTest))
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#15 {main}
+WARNING - 2024-03-13 09:24:15 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 23.
+ 1 APPPATH/Models/Common_Model.php(23): DateTime->__construct(null, Object(DateTimeZone))
+ 2 ROOTPATH/tests/LabSystemTest.php(26): App\Models\Common_Model->getCurrentTimeStamp()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testGetCurrentTimeStamp()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+ERROR - 2024-03-13 09:24:15 --> ErrorException: SQLite3::query(): Unable to prepare statement: 1, no such table: test_list in /Applications/MAMP/htdocs/icbt/system/Database/SQLite3/Connection.php:146
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'SQLite3::query(...', '/Applications/M...', 146)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/SQLite3/Connection.php(146): SQLite3->query('SELECT *\nFROM `...')
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(693): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *\nFROM `...')
+#3 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#4 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 /Applications/MAMP/htdocs/icbt/app/Models/LabTest_Model.php(112): CodeIgniter\Database\BaseBuilder->get()
+#6 /Applications/MAMP/htdocs/icbt/tests/LabSystemTest.php(32): App\Models\LabTest_Model->getDataAll()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testLabTest_Model()
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#12 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#14 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#15 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#16 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#17 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#18 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#19 {main}
+WARNING - 2024-03-13 09:24:50 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 23.
+ 1 APPPATH/Models/Common_Model.php(23): DateTime->__construct(null, Object(DateTimeZone))
+ 2 ROOTPATH/tests/LabSystemTest.php(26): App\Models\Common_Model->getCurrentTimeStamp()
+ 3 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testGetCurrentTimeStamp()
+ 4 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+ 5 VENDORPATH/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+ 6 VENDORPATH/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+ 7 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+ 8 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+ 9 VENDORPATH/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+10 VENDORPATH/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), [...], [...], true)
+12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run([...], true)
+13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit')
+ERROR - 2024-03-13 09:24:50 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'niro'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'niro', Object(SensitiveParameterValue), 'icbt_lab_system', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/MAMP/htdocs/icbt/app/Models/LabTest_Model.php(112): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/icbt/tests/LabSystemTest.php(32): App\Models\LabTest_Model->getDataAll()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testLabTest_Model()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#14 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#15 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#16 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#17 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#18 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/MAMP/htdocs/icbt/app/Models/LabTest_Model.php(112): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/MAMP/htdocs/icbt/tests/LabSystemTest.php(32): App\Models\LabTest_Model->getDataAll()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1612): Tests\LabSystemTest->testLabTest_Model()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1218): PHPUnit\Framework\TestCase->runTest()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(Tests\LabSystemTest))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#14 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#15 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#16 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#17 {main}
+ERROR - 2024-03-13 09:24:50 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'niro'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'niro', Object(SensitiveParameterValue), 'icbt_lab_system', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(54): ExampleDatabaseTest->loadDependencies()
+#4 /Applications/MAMP/htdocs/icbt/system/Test/CIUnitTestCase.php(249): ExampleDatabaseTest->setUpDatabase()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1211): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(ExampleDatabaseTest))
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#14 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#15 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(54): ExampleDatabaseTest->loadDependencies()
+#3 /Applications/MAMP/htdocs/icbt/system/Test/CIUnitTestCase.php(249): ExampleDatabaseTest->setUpDatabase()
+#4 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1211): CodeIgniter\Test\CIUnitTestCase->setUp()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(ExampleDatabaseTest))
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#15 {main}
+ERROR - 2024-03-13 09:24:50 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'niro'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php(184): mysqli->real_connect('localhost', 'niro', Object(SensitiveParameterValue), 'icbt_lab_system', 3306, '', 0)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(54): ExampleDatabaseTest->loadDependencies()
+#4 /Applications/MAMP/htdocs/icbt/system/Test/CIUnitTestCase.php(249): ExampleDatabaseTest->setUpDatabase()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1211): CodeIgniter\Test\CIUnitTestCase->setUp()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(ExampleDatabaseTest))
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#14 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#15 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#16 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/MAMP/htdocs/icbt/system/Test/DatabaseTestTrait.php(54): ExampleDatabaseTest->loadDependencies()
+#3 /Applications/MAMP/htdocs/icbt/system/Test/CIUnitTestCase.php(249): ExampleDatabaseTest->setUpDatabase()
+#4 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(1211): CodeIgniter\Test\CIUnitTestCase->setUp()
+#5 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestResult.php(728): PHPUnit\Framework\TestCase->runBare()
+#6 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestCase.php(968): PHPUnit\Framework\TestResult->run(Object(ExampleDatabaseTest))
+#7 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestCase->run(Object(PHPUnit\Framework\TestResult))
+#8 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#9 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/Framework/TestSuite.php(684): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#10 /Applications/MAMP/htdocs/icbt/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(651): PHPUnit\Framework\TestSuite->run(Object(PHPUnit\Framework\TestResult))
+#11 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(145): PHPUnit\TextUI\TestRunner->run(Object(PHPUnit\Framework\TestSuite), Array, Array, true)
+#12 /Users/niroshan/.composer/vendor/phpunit/phpunit/src/TextUI/Command.php(98): PHPUnit\TextUI\Command->run(Array, true)
+#13 /Users/niroshan/.composer/vendor/phpunit/phpunit/phpunit(107): PHPUnit\TextUI\Command::main()
+#14 /Users/niroshan/.composer/vendor/bin/phpunit(122): include('/Users/niroshan...')
+#15 {main}

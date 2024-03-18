@@ -1,0 +1,1218 @@
+INFO - 2024-03-09 05:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:10:09 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 9.
+ 1 APPPATH/Models/Common_Model.php(9): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/UserModel.php(48): CodeIgniter\Model\Common_Model->currentColomboTime()
+ 3 APPPATH/Models/UserModel.php(41): App\Models\UserModel->updateLoginTime('1')
+ 4 APPPATH/Controllers/Auth.php(95): App\Models\UserModel->checkLogin([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Auth->loginRequest()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:10:09 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 9.
+ 1 APPPATH/Models/Common_Model.php(9): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/UserModel.php(80): CodeIgniter\Model\Common_Model->currentColomboTime()
+ 3 APPPATH/Controllers/Auth.php(98): App\Models\UserModel->resetLoginAttempts('1')
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Auth->loginRequest()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:10:58 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:10:58 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:11:56 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:11:56 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:17:11 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:17:11 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:17:53 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:17:53 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:18:15 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:18:15 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:20:29 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:20:29 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:20:48 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:20:48 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-09 05:20:54 --> mysqli_sql_exception: Unknown column 'users.amount' in 'where clause' in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(`a...', 0)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`a...')
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`a...')
+#3 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`a...', Array, false)
+#4 /Applications/MAMP/htdocs/icbt/app/Models/Appointment_Model.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/icbt/app/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments(Array)
+#6 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+#7 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#8 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/icbt/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-09 05:20:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.amount' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE :appointments.id: ESCAPE \'!\'
+OR  `users`.`first_name` LIKE :users.first_name: ESCAPE \'!\'
+OR  `users`.`last_name` LIKE :users.last_name: ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE :appointments.appointment_date: ESCAPE \'!\'
+OR  `test_list`.`name` LIKE :test_list.name: ESCAPE \'!\'
+OR  `appointments`.`status` LIKE :appointments.status: ESCAPE \'!\'
+OR  `users`.`amount` LIKE :users.amount: ESCAPE \'!\'
+ )', [...], false)
+ 2 APPPATH/Models/Appointment_Model.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-09 05:20:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.amount' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%s%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`amount` LIKE \'%s%\' ESCAPE \'!\'
+ )')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%s%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`amount` LIKE \'%s%\' ESCAPE \'!\'
+ )')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE :appointments.id: ESCAPE \'!\'
+OR  `users`.`first_name` LIKE :users.first_name: ESCAPE \'!\'
+OR  `users`.`last_name` LIKE :users.last_name: ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE :appointments.appointment_date: ESCAPE \'!\'
+OR  `test_list`.`name` LIKE :test_list.name: ESCAPE \'!\'
+OR  `appointments`.`status` LIKE :appointments.status: ESCAPE \'!\'
+OR  `users`.`amount` LIKE :users.amount: ESCAPE \'!\'
+ )', [...], false)
+ 4 APPPATH/Models/Appointment_Model.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-09 05:20:54 --> [Caused by] mysqli_sql_exception: Unknown column 'users.amount' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%s%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`amount` LIKE \'%s%\' ESCAPE \'!\'
+ )', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%s%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`amount` LIKE \'%s%\' ESCAPE \'!\'
+ )')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%s%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%s%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%s%\' ESCAPE \'!\'
+OR  `users`.`amount` LIKE \'%s%\' ESCAPE \'!\'
+ )')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE :appointments.id: ESCAPE \'!\'
+OR  `users`.`first_name` LIKE :users.first_name: ESCAPE \'!\'
+OR  `users`.`last_name` LIKE :users.last_name: ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE :appointments.appointment_date: ESCAPE \'!\'
+OR  `test_list`.`name` LIKE :test_list.name: ESCAPE \'!\'
+OR  `appointments`.`status` LIKE :appointments.status: ESCAPE \'!\'
+OR  `users`.`amount` LIKE :users.amount: ESCAPE \'!\'
+ )', [...], false)
+ 5 APPPATH/Models/Appointment_Model.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:20:57 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:20:57 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:22:34 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:22:34 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:24:09 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:24:09 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:24:39 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:24:39 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:44:50 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:44:50 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:45:46 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:45:46 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:46:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:46:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:49:30 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:49:30 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:50:18 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:50:18 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:53:09 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:53:09 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:54:42 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:54:42 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:55:24 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:55:24 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:55:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:55:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 05:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 05:55:54 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 05:55:54 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(75): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 05:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 06:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 06:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:07:19 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:07:19 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 06:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:07:51 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 9.
+ 1 APPPATH/Models/Common_Model.php(9): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH/Models/Appointment_Model.php(286): CodeIgniter\Model\Common_Model->currentColomboTime()
+ 3 APPPATH/Models/Appointment_Model.php(164): App\Models\Appointment_Model->addAppointmentHistory(6, 'Created')
+ 4 APPPATH/Controllers/Appointment.php(128): App\Models\Appointment_Model->createAppointments([...])
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->create()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:07:51 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:07:51 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:07:51 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 06:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 06:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:07:59 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:07:59 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:07:59 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 06:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 06:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:08:07 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:08:07 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:08:07 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-09 06:08:18 --> mysqli_sql_exception: Unknown column 'users.amount' in 'where clause' in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(`a...', 0)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`a...')
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`a...')
+#3 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`a...', Array, false)
+#4 /Applications/MAMP/htdocs/icbt/app/Models/Appointment_Model.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/icbt/app/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments(Array)
+#6 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+#7 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#8 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/icbt/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-09 06:08:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.amount' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE :appointments.id: ESCAPE \'!\'
+OR  `users`.`first_name` LIKE :users.first_name: ESCAPE \'!\'
+OR  `users`.`last_name` LIKE :users.last_name: ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE :appointments.appointment_date: ESCAPE \'!\'
+OR  `test_list`.`name` LIKE :test_list.name: ESCAPE \'!\'
+OR  `appointments`.`status` LIKE :appointments.status: ESCAPE \'!\'
+OR  `users`.`amount` LIKE :users.amount: ESCAPE \'!\'
+ )', [...], false)
+ 2 APPPATH/Models/Appointment_Model.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-09 06:08:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.amount' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`amount` LIKE \'%In progress	%\' ESCAPE \'!\'
+ )')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`amount` LIKE \'%In progress	%\' ESCAPE \'!\'
+ )')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE :appointments.id: ESCAPE \'!\'
+OR  `users`.`first_name` LIKE :users.first_name: ESCAPE \'!\'
+OR  `users`.`last_name` LIKE :users.last_name: ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE :appointments.appointment_date: ESCAPE \'!\'
+OR  `test_list`.`name` LIKE :test_list.name: ESCAPE \'!\'
+OR  `appointments`.`status` LIKE :appointments.status: ESCAPE \'!\'
+OR  `users`.`amount` LIKE :users.amount: ESCAPE \'!\'
+ )', [...], false)
+ 4 APPPATH/Models/Appointment_Model.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-09 06:08:18 --> [Caused by] mysqli_sql_exception: Unknown column 'users.amount' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`amount` LIKE \'%In progress	%\' ESCAPE \'!\'
+ )', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`amount` LIKE \'%In progress	%\' ESCAPE \'!\'
+ )')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%In progress	%\' ESCAPE \'!\'
+OR  `users`.`amount` LIKE \'%In progress	%\' ESCAPE \'!\'
+ )')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE :appointments.id: ESCAPE \'!\'
+OR  `users`.`first_name` LIKE :users.first_name: ESCAPE \'!\'
+OR  `users`.`last_name` LIKE :users.last_name: ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE :appointments.appointment_date: ESCAPE \'!\'
+OR  `test_list`.`name` LIKE :test_list.name: ESCAPE \'!\'
+OR  `appointments`.`status` LIKE :appointments.status: ESCAPE \'!\'
+OR  `users`.`amount` LIKE :users.amount: ESCAPE \'!\'
+ )', [...], false)
+ 5 APPPATH/Models/Appointment_Model.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-09 06:09:40 --> mysqli_sql_exception: Unknown column 'test_list.amount' in 'where clause' in /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/icbt/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(`a...', 0)
+#1 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`a...')
+#2 /Applications/MAMP/htdocs/icbt/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`a...')
+#3 /Applications/MAMP/htdocs/icbt/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`a...', Array, false)
+#4 /Applications/MAMP/htdocs/icbt/app/Models/Appointment_Model.php(81): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/MAMP/htdocs/icbt/app/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments(Array)
+#6 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+#7 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+#8 /Applications/MAMP/htdocs/icbt/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/MAMP/htdocs/icbt/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-09 06:09:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'test_list.amount' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE :appointments.id: ESCAPE \'!\'
+OR  `users`.`first_name` LIKE :users.first_name: ESCAPE \'!\'
+OR  `users`.`last_name` LIKE :users.last_name: ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE :appointments.appointment_date: ESCAPE \'!\'
+OR  `test_list`.`name` LIKE :test_list.name: ESCAPE \'!\'
+OR  `appointments`.`status` LIKE :appointments.status: ESCAPE \'!\'
+OR  `test_list`.`amount` LIKE :test_list.amount: ESCAPE \'!\'
+ )', [...], false)
+ 2 APPPATH/Models/Appointment_Model.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-09 06:09:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'test_list.amount' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `test_list`.`amount` LIKE \'%In progress%\' ESCAPE \'!\'
+ )')
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `test_list`.`amount` LIKE \'%In progress%\' ESCAPE \'!\'
+ )')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE :appointments.id: ESCAPE \'!\'
+OR  `users`.`first_name` LIKE :users.first_name: ESCAPE \'!\'
+OR  `users`.`last_name` LIKE :users.last_name: ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE :appointments.appointment_date: ESCAPE \'!\'
+OR  `test_list`.`name` LIKE :test_list.name: ESCAPE \'!\'
+OR  `appointments`.`status` LIKE :appointments.status: ESCAPE \'!\'
+OR  `test_list`.`amount` LIKE :test_list.amount: ESCAPE \'!\'
+ )', [...], false)
+ 4 APPPATH/Models/Appointment_Model.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-09 06:09:40 --> [Caused by] mysqli_sql_exception: Unknown column 'test_list.amount' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `test_list`.`amount` LIKE \'%In progress%\' ESCAPE \'!\'
+ )', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `test_list`.`amount` LIKE \'%In progress%\' ESCAPE \'!\'
+ )')
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `users`.`first_name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `users`.`last_name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `test_list`.`name` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `appointments`.`status` LIKE \'%In progress%\' ESCAPE \'!\'
+OR  `test_list`.`amount` LIKE \'%In progress%\' ESCAPE \'!\'
+ )')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`appointments`.`id`) AS `allcount`
+FROM `appointments`
+JOIN `users` ON `appointments`.`patient_id` = `users`.`id`
+JOIN `test_list` ON `appointments`.`test_id` = `test_list`.`id`
+WHERE   (
+`appointments`.`id` LIKE :appointments.id: ESCAPE \'!\'
+OR  `users`.`first_name` LIKE :users.first_name: ESCAPE \'!\'
+OR  `users`.`last_name` LIKE :users.last_name: ESCAPE \'!\'
+OR  `appointments`.`appointment_date` LIKE :appointments.appointment_date: ESCAPE \'!\'
+OR  `test_list`.`name` LIKE :test_list.name: ESCAPE \'!\'
+OR  `appointments`.`status` LIKE :appointments.status: ESCAPE \'!\'
+OR  `test_list`.`amount` LIKE :test_list.amount: ESCAPE \'!\'
+ )', [...], false)
+ 5 APPPATH/Models/Appointment_Model.php(81): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:10:06 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:10:06 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:10:06 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:10:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:10:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:10:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:10:33 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:10:33 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:10:33 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(104): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:12:55 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:12:55 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:12:57 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:12:57 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:13:01 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:13:01 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:13:01 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 06:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:13:07 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:13:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:13:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:13:13 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:13:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:13:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:13:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:13:14 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:13:16 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:13:16 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:13:16 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 06:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 06:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-09 06:13:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:13:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-09 06:13:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH/Models/Common_Model.php on line 15.
+ 1 APPPATH/Models/Common_Model.php(15): strtotime(null)
+ 2 APPPATH/Models/Appointment_Model.php(115): CodeIgniter\Model\Common_Model->formatDateWithEnglishLetter(null)
+ 3 APPPATH/Controllers/Appointment.php(76): App\Models\Appointment_Model->getAllAppointments([...])
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Appointment->allAppointmentData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Appointment))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-09 08:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-09 08:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
