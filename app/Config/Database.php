@@ -27,9 +27,9 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => 'niro',
+        'username'     => 'root',
         'password'     => '',
-        'database'     => 'icbt_lab_system',
+        'database'     => 'icbt_labsystem',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,

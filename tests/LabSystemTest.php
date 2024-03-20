@@ -51,7 +51,7 @@ class LabSystemTest extends CIUnitTestCase
     public function testFormatDateWithEnglishLetter(){
         $common = new Common_Model();
         $result = $common->formatDateWithEnglishLetter('2024-05-01');
-        $this->assertEquals('1st May 2024', $result); // expected is '1st May 2024'
+        $this->assertEquals('1st May 2024', $result); // expect is '1st May 2024'
     }
 
     public function testDashboard(){
