@@ -267,8 +267,8 @@ if ($('#updatePatientForm').length) {
             }
         ])
         .addField('#up_occupation', [{rule: 'maxLength', value: 100}])
-        .addField('#up_religion', [{rule: 'required'}])
-        .addField('#up_nationality', [{rule: 'required'},])
+        // .addField('#up_religion', [{rule: 'required'}])
+        // .addField('#up_nationality', [{rule: 'required'},])
         .addField('#up_is_active', [{rule: 'required'}])
         .addField('#up_is_staff', [{rule: 'required'}])
         .onSuccess((e) => {
@@ -308,8 +308,6 @@ function viewPatients(id){
                 $('#up_telephone').val(response.data.telephone);
                 $('#up_mobile').val(response.data.mobile);
                 $('#up_occupation').val(response.data.occupation);
-                $('#up_religion').val(response.data.religion);
-                $('#up_nationality').val(response.data.nationality);
                 $('#up_is_active').val(response.data.is_active);
                 $('#up_is_staff').val(response.data.is_staff);
                 $('#patient_id').val(response.data.id);

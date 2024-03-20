@@ -158,7 +158,7 @@ $rolesOptions = createOptionSimple($userRoles);
                             <input type="text" class="form-control" name="last_name" id="up_last_name" placeholder="Enter Lastname" autocomplete="lnn">
                         </div>
                         <div class="form-group field-radio-group  col-12 col-lg-4 mb-3">
-                            <label for="gender" class="radio-group-label">Gender<i>*</i></label>
+                            <label for="gender" class="radio-group-label"> Gender<i>*</i></label>
                             <select class="form-select" id="up_gender" name="gender">
                                 <option value="">Select</option>
                                 <option value="Male">Male</option>

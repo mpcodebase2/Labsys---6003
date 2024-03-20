@@ -146,8 +146,8 @@ class Patient extends BaseController
             if ($hasPermission['hasPermission']) {
                 if ($this->request->isAJAX()) {
                     $rules = [
-                        'email' => 'required',
-                        'nic' => 'required|max_length[15]',
+                        'email' => 'required|is_unique[users.email]',
+                        'nic' => 'required|max_length[15]|is_unique[users.nic]',
                         'first_name' => 'required|max_length[100]',
                         'last_name' => 'required|max_length[100]',
                         'gender' => 'required',
@@ -159,12 +159,9 @@ class Patient extends BaseController
                         'province' => 'required',
                         'country' => 'required',
                         'telephone' => 'required|max_length[12]',
-                        'mobile' => 'required|max_length[12]',
+                        'mobile' => 'max_length[12]',
                         'occupation' => 'max_length[100]',
-                        'religion' => 'required',
-                        'nationality' => 'required',
                         'is_active' => 'required',
-                        'is_staff' => 'required'
                     ];
                     if (!$this->validate($rules)) {
                         $errors = $this->validator->getErrors();

@@ -49,8 +49,6 @@ class Patient_Model extends Model
             'patients.telephone',
             'patients.mobile',
             'patients.occupation',
-            'patients.religion',
-            'patients.nationality',
             'users.nic',
             'users.first_name',
             'users.last_name',
@@ -99,7 +97,7 @@ class Patient_Model extends Model
 
         $totalRecordwithFilter = $builder->get()->getRow()->allcount;
 
-        $builder->select('patients.id, patients.user_id, patients.registered_date, patients.address_ln1, patients.address_ln2, patients.city, patients.district, patients.province, patients.country, patients.telephone, patients.mobile, patients.occupation, patients.religion, patients.nationality, patients.is_active, patients.is_staff,
+        $builder->select('patients.id, patients.user_id, patients.registered_date, patients.address_ln1, patients.address_ln2, patients.city, patients.district, patients.province, patients.country, patients.telephone, patients.mobile, patients.occupation, patients.is_active, patients.is_staff,
     users.id AS user_id, users.username, users.password, users.nic, users.first_name, users.last_name, users.gender, users.phone, users.email, users.dob, users.join_date, users.address, users.district AS user_district, users.active AS user_active, users.created_by, users.last_login, users.created_at, users.updated_at,
    
     country.id AS country_id, country.name AS country_name, country.active AS country_active,
@@ -211,8 +209,6 @@ class Patient_Model extends Model
                     'telephone' => $data['telephone'],
                     'mobile' => $data['mobile'],
                     'occupation' => $data['occupation'],
-                    'religion' => $data['religion'],
-                    'nationality' => $data['nationality'],
                     'is_active' => $data['is_active'],
                     'is_staff' => $data['is_staff']
                 ];
@@ -257,8 +253,6 @@ class Patient_Model extends Model
                     'telephone' => $data['telephone'],
                     'mobile' => $data['mobile'],
                     'occupation' => $data['occupation'],
-                    'religion' => $data['religion'],
-                    'nationality' => $data['nationality'],
                     'is_active' => true,
                     'is_staff' => false
                 ];
@@ -399,8 +393,6 @@ class Patient_Model extends Model
                 'telephone' => $data['telephone'],
                 'mobile' => $data['mobile'],
                 'occupation' => $data['occupation'],
-                'religion' => $data['religion'],
-                'nationality' => $data['nationality'],
                 'is_active' => $data['is_active'],
                 'is_staff' => $data['is_staff']
             ];

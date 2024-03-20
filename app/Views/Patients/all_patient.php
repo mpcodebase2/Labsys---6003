@@ -170,22 +170,6 @@ $countryOptions = createOption($country, '');
                             <input type="text" class="form-control" name="occupation" id="occupation" placeholder="Enter Occupation" autocomplete="fnn">
                         </div>
                         <div class="form-group col-12 col-lg-4 mb-3">
-                            <label class="col-form-label" for="religion">Religion</label>
-                            <select class="form-select" id="religion" name="religion">
-                                <option value="">Select</option>
-                                <option value="Hinduism">Hinduism</option>
-                                <option value="Buddhism">Buddhism</option>
-                                <option value="Islam">Islam</option>
-                                <option value="Catholicism">Catholicism</option>
-                                <option value="Other Christian">Other Christian</option>
-                                <option value="Others">Others</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-12 col-lg-4 mb-3">
-                            <label class="col-form-label" for="nationality">Nationality</label>
-                            <input class="form-control" id="nationality" data-autofill-values="Sri Lankan" name="nationality" type="text"  placeholder="Sri Lankan" maxlength="100" size="50" autocomplete="off">
-                        </div>
-                        <div class="form-group col-12 col-lg-4 mb-3">
                             <label class="col-form-label" for="is_active">Is Active</label>
                             <select class="form-select" id="is_active" name="is_active">
                                 <option value="">Select</option>
@@ -297,22 +281,6 @@ $countryOptions = createOption($country, '');
                         <div class="form-group col-12 col-lg-4 mb-3">
                             <label class="col-form-label" for="occupation">Occupation</label>
                             <input type="text" class="form-control" name="occupation" id="up_occupation" placeholder="Enter Occupation" autocomplete="fnn">
-                        </div>
-                        <div class="form-group col-12 col-lg-4 mb-3">
-                            <label class="col-form-label" for="religion">Religion</label>
-                            <select class="form-select" id="up_religion" name="religion">
-                                <option value="">Select</option>
-                                <option value="Hinduism">Hinduism</option>
-                                <option value="Buddhism">Buddhism</option>
-                                <option value="Islam">Islam</option>
-                                <option value="Catholicism">Catholicism</option>
-                                <option value="Other Christian">Other Christian</option>
-                                <option value="Others">Others</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-12 col-lg-4 mb-3">
-                            <label class="col-form-label" for="nationality">Nationality</label>
-                            <input class="form-control" id="up_nationality" data-autofill-values="Sri Lankan" name="nationality" type="text"  placeholder="Sri Lankan" maxlength="100" size="50" autocomplete="off">
                         </div>
                         <div class="form-group col-12 col-lg-4 mb-3">
                             <label class="col-form-label" for="is_active">Is Active</label>
