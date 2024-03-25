@@ -1,0 +1,343 @@
+INFO - 2024-03-23 09:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 09:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-23 09:23:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\Auth.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:23:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$auth_model is deprecated in APPPATH\Controllers\Auth.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:23:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$data is deprecated in APPPATH\Controllers\Auth.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 09:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 09:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-23 09:31:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\PublicAuthentication::$session is deprecated in APPPATH\Controllers\PublicAuthentication.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAuthentication->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:31:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\PublicAuthentication::$auth_model is deprecated in APPPATH\Controllers\PublicAuthentication.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAuthentication->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:31:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\PublicAuthentication::$data is deprecated in APPPATH\Controllers\PublicAuthentication.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAuthentication->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:31:58 --> [DEPRECATED] Creation of dynamic property App\Models\Patient_Model::$password_lib is deprecated in APPPATH\Models\Patient_Model.php on line 15.
+ 1 APPPATH\Controllers\PublicAuthentication.php(39): App\Models\Patient_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAuthentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 09:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-23 09:33:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\PublicAuthentication::$session is deprecated in APPPATH\Controllers\PublicAuthentication.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAuthentication->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:33:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\PublicAuthentication::$auth_model is deprecated in APPPATH\Controllers\PublicAuthentication.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAuthentication->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:33:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\PublicAuthentication::$data is deprecated in APPPATH\Controllers\PublicAuthentication.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAuthentication->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:33:53 --> [DEPRECATED] Creation of dynamic property App\Models\Patient_Model::$password_lib is deprecated in APPPATH\Models\Patient_Model.php on line 15.
+ 1 APPPATH\Controllers\PublicAuthentication.php(39): App\Models\Patient_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAuthentication->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:33:53 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Models\Common_Model.php on line 11.
+ 1 APPPATH\Models\Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH\Models\UserModel.php(72): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH\Models\UserModel.php(65): App\Models\UserModel->updateLoginTime('12')
+ 4 APPPATH\Controllers\PublicAuthentication.php(108): App\Models\UserModel->checkLoginByEmail([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PublicAuthentication->loginRequest()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:33:53 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Models\Common_Model.php on line 11.
+ 1 APPPATH\Models\Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH\Models\UserModel.php(108): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH\Controllers\PublicAuthentication.php(111): App\Models\UserModel->resetLoginAttempts('12')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PublicAuthentication->loginRequest()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAuthentication))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 09:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 09:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-23 09:33:55 --> [DEPRECATED] Creation of dynamic property App\Models\Appointment_Model::$session is deprecated in APPPATH\Models\Appointment_Model.php on line 18.
+ 1 APPPATH\Controllers\PublicAppointment.php(37): App\Models\Appointment_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:33:55 --> [DEPRECATED] Creation of dynamic property App\Models\Appointment_Model::$password_lib is deprecated in APPPATH\Models\Appointment_Model.php on line 20.
+ 1 APPPATH\Controllers\PublicAppointment.php(37): App\Models\Appointment_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:33:55 --> [DEPRECATED] Creation of dynamic property App\Models\FileUpload_Model::$request is deprecated in APPPATH\Models\FileUpload_Model.php on line 19.
+ 1 APPPATH\Models\Appointment_Model.php(22): App\Models\FileUpload_Model->__construct()
+ 2 APPPATH\Controllers\PublicAppointment.php(37): App\Models\Appointment_Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:33:55 --> [DEPRECATED] Creation of dynamic property App\Models\FileUpload_Model::$session is deprecated in APPPATH\Models\FileUpload_Model.php on line 20.
+ 1 APPPATH\Models\Appointment_Model.php(22): App\Models\FileUpload_Model->__construct()
+ 2 APPPATH\Controllers\PublicAppointment.php(37): App\Models\Appointment_Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:33:55 --> [DEPRECATED] Creation of dynamic property App\Models\Patient_Model::$password_lib is deprecated in APPPATH\Models\Patient_Model.php on line 15.
+ 1 APPPATH\Controllers\PublicAppointment.php(42): App\Models\Patient_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 09:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 09:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 09:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-23 09:34:43 --> [DEPRECATED] Creation of dynamic property App\Models\Appointment_Model::$session is deprecated in APPPATH\Models\Appointment_Model.php on line 18.
+ 1 APPPATH\Controllers\PublicAppointment.php(37): App\Models\Appointment_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:34:43 --> [DEPRECATED] Creation of dynamic property App\Models\Appointment_Model::$password_lib is deprecated in APPPATH\Models\Appointment_Model.php on line 20.
+ 1 APPPATH\Controllers\PublicAppointment.php(37): App\Models\Appointment_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:34:43 --> [DEPRECATED] Creation of dynamic property App\Models\FileUpload_Model::$request is deprecated in APPPATH\Models\FileUpload_Model.php on line 19.
+ 1 APPPATH\Models\Appointment_Model.php(22): App\Models\FileUpload_Model->__construct()
+ 2 APPPATH\Controllers\PublicAppointment.php(37): App\Models\Appointment_Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:34:43 --> [DEPRECATED] Creation of dynamic property App\Models\FileUpload_Model::$session is deprecated in APPPATH\Models\FileUpload_Model.php on line 20.
+ 1 APPPATH\Models\Appointment_Model.php(22): App\Models\FileUpload_Model->__construct()
+ 2 APPPATH\Controllers\PublicAppointment.php(37): App\Models\Appointment_Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:34:43 --> [DEPRECATED] Creation of dynamic property App\Models\Patient_Model::$password_lib is deprecated in APPPATH\Models\Patient_Model.php on line 15.
+ 1 APPPATH\Controllers\PublicAppointment.php(42): App\Models\Patient_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:34:43 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Models\Common_Model.php on line 11.
+ 1 APPPATH\Models\Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH\Models\Appointment_Model.php(153): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH\Controllers\PublicAppointment.php(123): App\Models\Appointment_Model->createAppointmentByPatient([...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PublicAppointment->createAppointmentAPI()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:34:43 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Models\Common_Model.php on line 11.
+ 1 APPPATH\Models\Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH\Models\Appointment_Model.php(325): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH\Models\Appointment_Model.php(160): App\Models\Appointment_Model->addAppointmentHistory(20, 'Created')
+ 4 APPPATH\Controllers\PublicAppointment.php(123): App\Models\Appointment_Model->createAppointmentByPatient([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PublicAppointment->createAppointmentAPI()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PublicAppointment))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 09:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-23 09:34:43 --> [DEPRECATED] Creation of dynamic property App\Models\Appointment_Model::$session is deprecated in APPPATH\Models\Appointment_Model.php on line 18.
+ 1 APPPATH\Controllers\Payment.php(22): App\Models\Appointment_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Payment->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:34:43 --> [DEPRECATED] Creation of dynamic property App\Models\Appointment_Model::$password_lib is deprecated in APPPATH\Models\Appointment_Model.php on line 20.
+ 1 APPPATH\Controllers\Payment.php(22): App\Models\Appointment_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Payment->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:34:43 --> [DEPRECATED] Creation of dynamic property App\Models\FileUpload_Model::$request is deprecated in APPPATH\Models\FileUpload_Model.php on line 19.
+ 1 APPPATH\Models\Appointment_Model.php(22): App\Models\FileUpload_Model->__construct()
+ 2 APPPATH\Controllers\Payment.php(22): App\Models\Appointment_Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Payment->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:34:43 --> [DEPRECATED] Creation of dynamic property App\Models\FileUpload_Model::$session is deprecated in APPPATH\Models\FileUpload_Model.php on line 20.
+ 1 APPPATH\Models\Appointment_Model.php(22): App\Models\FileUpload_Model->__construct()
+ 2 APPPATH\Controllers\Payment.php(22): App\Models\Appointment_Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Payment->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 09:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-23 09:35:28 --> [DEPRECATED] Creation of dynamic property App\Models\Appointment_Model::$session is deprecated in APPPATH\Models\Appointment_Model.php on line 18.
+ 1 APPPATH\Controllers\Payment.php(22): App\Models\Appointment_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Payment->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:35:28 --> [DEPRECATED] Creation of dynamic property App\Models\Appointment_Model::$password_lib is deprecated in APPPATH\Models\Appointment_Model.php on line 20.
+ 1 APPPATH\Controllers\Payment.php(22): App\Models\Appointment_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Payment->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:35:28 --> [DEPRECATED] Creation of dynamic property App\Models\FileUpload_Model::$request is deprecated in APPPATH\Models\FileUpload_Model.php on line 19.
+ 1 APPPATH\Models\Appointment_Model.php(22): App\Models\FileUpload_Model->__construct()
+ 2 APPPATH\Controllers\Payment.php(22): App\Models\Appointment_Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Payment->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:35:28 --> [DEPRECATED] Creation of dynamic property App\Models\FileUpload_Model::$session is deprecated in APPPATH\Models\FileUpload_Model.php on line 20.
+ 1 APPPATH\Models\Appointment_Model.php(22): App\Models\FileUpload_Model->__construct()
+ 2 APPPATH\Controllers\Payment.php(22): App\Models\Appointment_Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Payment->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 09:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 09:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-23 09:38:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\Auth.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$auth_model is deprecated in APPPATH\Controllers\Auth.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$data is deprecated in APPPATH\Controllers\Auth.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:08 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Models\Common_Model.php on line 11.
+ 1 APPPATH\Models\Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH\Models\UserModel.php(99): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH\Controllers\Auth.php(110): App\Models\UserModel->updateLoginAttempts('1', '0')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->loginRequest()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 09:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-23 09:38:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\Auth.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$auth_model is deprecated in APPPATH\Controllers\Auth.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$data is deprecated in APPPATH\Controllers\Auth.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 09:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-23 09:38:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\Auth.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$auth_model is deprecated in APPPATH\Controllers\Auth.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$data is deprecated in APPPATH\Controllers\Auth.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 09:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-23 09:38:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$session is deprecated in APPPATH\Controllers\Auth.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$auth_model is deprecated in APPPATH\Controllers\Auth.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$data is deprecated in APPPATH\Controllers\Auth.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:40 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Models\Common_Model.php on line 11.
+ 1 APPPATH\Models\Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH\Models\UserModel.php(72): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH\Models\UserModel.php(40): App\Models\UserModel->updateLoginTime('1')
+ 4 APPPATH\Controllers\Auth.php(95): App\Models\UserModel->checkLogin([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->loginRequest()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:40 --> [DEPRECATED] DateTime::__construct(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Models\Common_Model.php on line 11.
+ 1 APPPATH\Models\Common_Model.php(11): DateTime->__construct(null, Object(DateTimeZone))
+ 2 APPPATH\Models\UserModel.php(108): App\Models\Common_Model->currentColomboTime()
+ 3 APPPATH\Controllers\Auth.php(98): App\Models\UserModel->resetLoginAttempts('1')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Auth->loginRequest()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-23 09:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-23 09:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-23 09:38:40 --> [DEPRECATED] Creation of dynamic property App\Models\Appointment_Model::$session is deprecated in APPPATH\Models\Appointment_Model.php on line 18.
+ 1 APPPATH\Controllers\PublicAppointment.php(37): App\Models\Appointment_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:40 --> [DEPRECATED] Creation of dynamic property App\Models\Appointment_Model::$password_lib is deprecated in APPPATH\Models\Appointment_Model.php on line 20.
+ 1 APPPATH\Controllers\PublicAppointment.php(37): App\Models\Appointment_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:40 --> [DEPRECATED] Creation of dynamic property App\Models\FileUpload_Model::$request is deprecated in APPPATH\Models\FileUpload_Model.php on line 19.
+ 1 APPPATH\Models\Appointment_Model.php(22): App\Models\FileUpload_Model->__construct()
+ 2 APPPATH\Controllers\PublicAppointment.php(37): App\Models\Appointment_Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:40 --> [DEPRECATED] Creation of dynamic property App\Models\FileUpload_Model::$session is deprecated in APPPATH\Models\FileUpload_Model.php on line 20.
+ 1 APPPATH\Models\Appointment_Model.php(22): App\Models\FileUpload_Model->__construct()
+ 2 APPPATH\Controllers\PublicAppointment.php(37): App\Models\Appointment_Model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-03-23 09:38:40 --> [DEPRECATED] Creation of dynamic property App\Models\Patient_Model::$password_lib is deprecated in APPPATH\Models\Patient_Model.php on line 15.
+ 1 APPPATH\Controllers\PublicAppointment.php(42): App\Models\Patient_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\PublicAppointment->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
